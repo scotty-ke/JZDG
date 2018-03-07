@@ -1,0 +1,30 @@
+//
+//  JZDG.pch
+//  芥子帝国
+//
+//  Created by 宋柯 on 2018/3/7.
+//  Copyright © 2018年 songK. All rights reserved.
+//
+
+#ifndef JZDG_pch
+#define JZDG_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "Color.h"
+#import "UIPageDefines.h"
+#import "AppDefines.h"
+#import "UIViewExt.h"
+
+#import "Public.h"
+#import "UIViewController+HUD.h"
+
+#import "BaseViewController.h"
+
+#endif
+
+
+#endif /* JZDG_pch */

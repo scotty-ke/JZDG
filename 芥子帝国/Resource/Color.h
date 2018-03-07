@@ -19,7 +19,7 @@
 #define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 
 //主题色 - 绿色
-#define TOPCAIL_COLOR  HospitalM.topicColor
+#define TOPCAIL_COLOR  [UIColor cyanColor]
 #define ZHUAN_COLOR UIColorFromRGB(0x42d049)
 //背景底色
 #define BACKGROUND_COLOR UIColorFromRGB(0xf5f5f5)

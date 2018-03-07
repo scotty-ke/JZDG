@@ -9,13 +9,6 @@
 #ifndef UIPageDefines_h
 #define UIPageDefines_h
 
-/******** 页面定义 ********/
-#define PageNumber_Main             @"001"
-#define PageNumber_Message       @"002"
-#define PageNumber_News            @"003"
-#define PageNumber_Self              @"004"
-#define PageNumber_Login             @"005"
-
 //宽高
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width

@@ -9,14 +9,9 @@
 
 #import "Public.h"
 #import <CommonCrypto/CommonDigest.h>
-#import "AppAddressManager.h"
 #import <CoreText/CoreText.h>
 
 #import "UIResponder+firstResponder.h"
-
-#import "NagriHealth_Header.pch"
-
-#import "perfectIDCardViewController.h"
 @implementation Public
 
 #pragma mark 基本数据类型转化为json
@@ -147,111 +142,6 @@
     
     return height;
 }
-
-#pragma mark 图片链接封装
-+ (NSString*)getPicUrlString:(NSInteger)photoID photoType:(AppPhotoType)photoType
-{
-    NSString *urlHeader = [AppAddressManager shareManager].photoAddress;
-    if (photoID == 0) {
-        return @"";
-    }
-    switch (photoType) {
-        case AvatarThumbnail:
-            return [NSString stringWithFormat:@"%@%ld?w=%d&h=%d",urlHeader,(long)photoID,160,120];
-        case DataThumbnail:
-            return [NSString stringWithFormat:@"%@%ld?w=%d&h=%d",urlHeader,(long)photoID,160,160];
-        case OrganThumbnail:
-            return [NSString stringWithFormat:@"%@%ld?w=%d&h=%d",urlHeader,(long)photoID,160,120];
-        case PhotoOriginal:
-            return [NSString stringWithFormat:@"%@%ld?w=%d&h=%d",urlHeader,(long)photoID,1080,1920];
-        default:
-            return [NSString stringWithFormat:@"%@%ld",urlHeader,(long)photoID];
-    }
-}
-
-
-+ (void)autoLogin
-{
-    CommandReq *req = [[CommandReq alloc] init];
-    NSString *md5Pwd = [Public getMd5_32Bit:[USER_DEFAULT valueForKey:DEFAULT_Pwd]];
-    req.bodyDic = @{@"uid":[USER_DEFAULT valueForKey:DEFAULT_LoginId],
-                    @"pwd":md5Pwd,
-                    @"rid":@"patient",
-                    @"forAccessToken":[NSNumber numberWithBool:true]};
-    
-    [InterfaceManager loginWithParams:req
-                      onResponseBlock:^(id object)
-     {
-         NSInteger code = [[object objectForKey:@"code"] integerValue];
-         if (code == COMMAND_CODE_SUCCESS)
-         {            //保存token
-             NSDictionary *dic = [object objectForKey:@"body"];
-             
-             //基本信息
-             NSString *uid = [dic objectForKey:@"id"];
-             NSString *manageUnit = [dic objectForKey:@"manageUnit"];
-             NSString *userAvatar = [dic objectForKey:@"userAvatar"];
-             NSString *token = dic[@"properties"][@"accessToken"];
-             //详细信息
-             NSDictionary *patientDic = [[dic objectForKey:@"properties"] objectForKey:@"patient"];
-             NSString *mpiId = [patientDic objectForKey:@"mpiId"];
-             NSString *patientName = [patientDic objectForKey:@"patientName"];
-             NSString *userName = [patientDic objectForKey:@"patientName"];
-
-             NSString *patientSex = [patientDic objectForKey:@"patientSex"];
-             NSString *patientType = [patientDic objectForKey:@"patientType"];
-             NSString *patientTypeText = [patientDic objectForKey:@"patientTypeText"];
-             
-             NSString *rawIdcard = [patientDic objectForKey:@"rawIdcard"];
-             NSString *mobile = [patientDic objectForKey:@"mobile"];
-             NSString *homeAreaText = [patientDic objectForKey:@"homeAreaText"];
-             NSNumber *homeArea = [patientDic objectForKey:@"homeArea"];
-             
-             /**
-              *  基本信息
-              */
-             [USER_DEFAULT setValue:uid forKey:DEFAULT_Uid];
-             [USER_DEFAULT setValue:manageUnit forKey:DEFAULT_ManageUnit];
-             [USER_DEFAULT setValue:userName forKey:DEFAULT_UserName];
-             [USER_DEFAULT setValue:userAvatar forKey:DEFAULT_UserHeaderImage];
-             if ([Public isNotBlankString:token])
-             {
-                 [USER_DEFAULT setValue:token forKey:DEFAULT_AccessToken];
-             }
-             
-             /**
-              *  详细信息
-              */
-             [USER_DEFAULT setValue:mpiId forKey:DEFAULT_MpiId];
-             [USER_DEFAULT setValue:patientName forKey:DEFAULT_PatientName];
-             [USER_DEFAULT setValue:patientSex forKey:DEFAULT_PatientSex];
-             [USER_DEFAULT setValue:patientType forKey:DEFAULT_PatientType];
-             [USER_DEFAULT setValue:patientTypeText forKey:DEFAULT_PatientTypeText];
-             
-             [USER_DEFAULT setValue:rawIdcard forKey:DEFAULT_PatientIdCard];
-             [USER_DEFAULT setValue:mobile forKey:DEFAULT_Mobile];
-             [USER_DEFAULT setValue:homeArea forKey:DEFAULT_PatientAddress];
-             [USER_DEFAULT setValue:homeAreaText forKey:DEFAULT_PatientAddressText];
-             [USER_DEFAULT setValue:patientDic forKey:DEFAULT_Patient];
-             //            [UIManager mobEvent:Mob_NRD_Login_success];
-             
-                   }
-         else if (code == COMMAND_CODE_NOUSER)
-         {
-             //  没有此用户
-         }
-         else if(code == COMMAND_CODE_PWDFAIL)
-         {
-             //  密码错误
-         }
-         else
-         {
-             //  非200指令
-         }
-        } onError:^(NSError *error) {
-     }];
-}
-
 
 #pragma mark 根据生日算年龄
 + (NSInteger)getAgeFromBirthDay:(NSString*)birth
@@ -613,52 +503,6 @@
     int tempYer = year - toYear;
     
     return [NSString stringWithFormat:@"%d年",tempYer < 0 ? 0 : tempYer];
-}
-
-#pragma mark -  获取性别图片 role 1=医生 2=患者
-+(UIImage *)getGenderImage:(NSInteger)gender role:(NSInteger)role
-{
-    NSString *boy = (role == 1 ? @"doctor_boy" : @"patient_boy");
-    NSString *girl = (role == 1 ? @"doctor_girl" : @"patient_girl");
-    return gender == 2 ? [UIImage imageNamed:girl] : [UIImage imageNamed:boy];
-}
-+ (NSString *)getJSONInfoWithEMMessageText:(NSString *)str {
-    if ([Public customEMMessageType:str] == EMCustomMessageTypeNormal || [Public customEMMessageType:str] == EMCustomMessageTypeUndefine) {
-        return nil;
-    }
-    
-    NSURL *url = [NSURL URLWithString:str];
-    
-    NSString *decodedString = (__bridge_transfer NSString *)CFURLCreateStringByReplacingPercentEscapesUsingEncoding(NULL, (CFStringRef)url.query, CFSTR(""), kCFStringEncodingUTF8);
-    return [decodedString substringFromIndex:5];
-}
-
-+ (EMCustomMessageType)customEMMessageType:(NSString *)messageText
-{
-    if(messageText.length > 0 &&[messageText rangeOfString:@"img:"].location != NSNotFound)
-    {
-        return EMCustomMessageTypeImage;
-    }
-    
-    NSURL *url = [NSURL URLWithString:messageText];
-
-    if (![url.scheme isEqualToString:@"text"])
-    {
-        return EMCustomMessageTypeNormal;
-    }
-    if ([url.host isEqualToString:@"consultation"])
-    {
-        return EMCustomMessageTypeConsultion;
-    }
-    else if ([url.host isEqualToString:@"inquire"])
-    {
-        return EMCustomMessageTypeConsult;
-    }
-    else if ([url.host isEqualToString:@"share"])
-    {
-        return EMCustomMessageTypeShare;
-    }
-    return EMCustomMessageTypeUndefine;
 }
 
 

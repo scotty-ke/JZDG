@@ -89,21 +89,6 @@ typedef NS_ENUM(NSUInteger, ViewStyle) {
  */
 + (float)countLabelHeightNoLineSpacing:(NSString *)text width:(CGFloat )width font:(UIFont *)font minHeight:(float)minHeight;
 
-/**
- *  图片链接的封装
- *
- *  @param photoID   图片ID
- *  @param photoType 图片类型 AppPhotoType
- *
- *  @return 图片完整链接
- */
-+ (NSString*)getPicUrlString:(NSInteger)photoID photoType:(AppPhotoType)photoType;
-
-
-/**
- *  自动登录
- */
-+ (void)autoLogin;
 
 /**
  *  根据生日计算周岁
