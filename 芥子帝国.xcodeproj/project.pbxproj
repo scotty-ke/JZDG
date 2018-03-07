@@ -16,6 +16,10 @@
 		C5BAAA54204FD8E900E6AEDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAAA53204FD8E900E6AEDB /* main.m */; };
 		C5BAAA5E204FD8E900E6AEDB /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAAA5D204FD8E900E6AEDB /* ____Tests.m */; };
 		C5BAAA69204FD8E900E6AEDB /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAAA68204FD8E900E6AEDB /* ____UITests.m */; };
+		C5BAAA84204FE98900E6AEDB /* DDRefreshHader.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAAA78204FE98900E6AEDB /* DDRefreshHader.m */; };
+		C5BAAA85204FE98900E6AEDB /* DDRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAAA79204FE98900E6AEDB /* DDRefreshFooter.m */; };
+		C5BAAA87204FE98900E6AEDB /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAAA80204FE98900E6AEDB /* Public.m */; };
+		C5BAAA88204FE98900E6AEDB /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAAA82204FE98900E6AEDB /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +54,21 @@
 		C5BAAA52204FD8E900E6AEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5BAAA53204FD8E900E6AEDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5BAAA59204FD8E900E6AEDB /* 芥子帝国Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "芥子帝国Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5BAAA5D204FD8E900E6AEDB /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____Tests.m; sourceTree = "<group>"; };
+		C5BAAA5D204FD8E900E6AEDB /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		C5BAAA5F204FD8E900E6AEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5BAAA64204FD8E900E6AEDB /* 芥子帝国UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "芥子帝国UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5BAAA68204FD8E900E6AEDB /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____UITests.m; sourceTree = "<group>"; };
+		C5BAAA68204FD8E900E6AEDB /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		C5BAAA6A204FD8E900E6AEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BAAA78204FE98900E6AEDB /* DDRefreshHader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRefreshHader.m; sourceTree = "<group>"; };
+		C5BAAA79204FE98900E6AEDB /* DDRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRefreshFooter.m; sourceTree = "<group>"; };
+		C5BAAA7A204FE98900E6AEDB /* DDRefreshHader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRefreshHader.h; sourceTree = "<group>"; };
+		C5BAAA7B204FE98900E6AEDB /* DDRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRefreshFooter.h; sourceTree = "<group>"; };
+		C5BAAA7E204FE98900E6AEDB /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
+		C5BAAA80204FE98900E6AEDB /* Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Public.m; sourceTree = "<group>"; };
+		C5BAAA82204FE98900E6AEDB /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		C5BAAA83204FE98900E6AEDB /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		C5BAAA8B204FEB3600E6AEDB /* UIPageDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPageDefines.h; sourceTree = "<group>"; };
+		C5BAAA8C204FEB3700E6AEDB /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +139,9 @@
 		C5BAAA43204FD8E900E6AEDB /* 芥子帝国 */ = {
 			isa = PBXGroup;
 			children = (
+				C5BAAA76204FE8F500E6AEDB /* Public_layer */,
+				C5BAAA89204FEA2100E6AEDB /* Middle_layer */,
+				C5BAAA8A204FEAFF00E6AEDB /* Resource */,
 				C5BAAA44204FD8E900E6AEDB /* AppDelegate.h */,
 				C5BAAA45204FD8E900E6AEDB /* AppDelegate.m */,
 				C5BAAA47204FD8E900E6AEDB /* ViewController.h */,
@@ -154,6 +171,61 @@
 				C5BAAA6A204FD8E900E6AEDB /* Info.plist */,
 			);
 			path = "芥子帝国UITests";
+			sourceTree = "<group>";
+		};
+		C5BAAA76204FE8F500E6AEDB /* Public_layer */ = {
+			isa = PBXGroup;
+			children = (
+				C5BAAA77204FE98900E6AEDB /* DDRefreshHeader */,
+				C5BAAA7C204FE98900E6AEDB /* Public */,
+				C5BAAA81204FE98900E6AEDB /* UIViewExt */,
+			);
+			path = Public_layer;
+			sourceTree = "<group>";
+		};
+		C5BAAA77204FE98900E6AEDB /* DDRefreshHeader */ = {
+			isa = PBXGroup;
+			children = (
+				C5BAAA78204FE98900E6AEDB /* DDRefreshHader.m */,
+				C5BAAA79204FE98900E6AEDB /* DDRefreshFooter.m */,
+				C5BAAA7A204FE98900E6AEDB /* DDRefreshHader.h */,
+				C5BAAA7B204FE98900E6AEDB /* DDRefreshFooter.h */,
+			);
+			path = DDRefreshHeader;
+			sourceTree = "<group>";
+		};
+		C5BAAA7C204FE98900E6AEDB /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C5BAAA7E204FE98900E6AEDB /* Public.h */,
+				C5BAAA80204FE98900E6AEDB /* Public.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		C5BAAA81204FE98900E6AEDB /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				C5BAAA83204FE98900E6AEDB /* UIViewExt.h */,
+				C5BAAA82204FE98900E6AEDB /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		C5BAAA89204FEA2100E6AEDB /* Middle_layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Middle_layer;
+			sourceTree = "<group>";
+		};
+		C5BAAA8A204FEAFF00E6AEDB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C5BAAA8C204FEB3700E6AEDB /* Color.h */,
+				C5BAAA8B204FEB3600E6AEDB /* UIPageDefines.h */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,8 +412,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BAAA88204FE98900E6AEDB /* UIViewExt.m in Sources */,
+				C5BAAA87204FE98900E6AEDB /* Public.m in Sources */,
 				C5BAAA49204FD8E900E6AEDB /* ViewController.m in Sources */,
 				C5BAAA54204FD8E900E6AEDB /* main.m in Sources */,
+				C5BAAA85204FE98900E6AEDB /* DDRefreshFooter.m in Sources */,
+				C5BAAA84204FE98900E6AEDB /* DDRefreshHader.m in Sources */,
 				C5BAAA46204FD8E900E6AEDB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
