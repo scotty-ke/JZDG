@@ -32,6 +32,8 @@
     
     [IQKeyboardManager sharedManager].enable = YES;
     
+    NSLog(@"lalal");
+    
     return YES;
 }
 
