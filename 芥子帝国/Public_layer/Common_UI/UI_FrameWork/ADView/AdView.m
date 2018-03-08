@@ -14,7 +14,7 @@
 //  Copyright (c) 2014年 Qzy. All rights reserved.
 //
 
-//  申洋-更改了广告语的灰色遮罩的透明度
+// 
 
 #import "AdView.h"
 //#import "UIImageView+AFNetworking.h"

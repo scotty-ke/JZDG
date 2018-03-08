@@ -1,9 +1,9 @@
 //
 //  AppDefines.h
-//  easydoctor
+//  芥子帝国
 //
-//  Created by easygroup on 15/10/21.
-//  Copyright © 2015年 easygroup. All rights reserved.
+//  Created by 纳里健康 on 2018/3/8.
+//  Copyright © 2018年 songK. All rights reserved.
 //
 
 #ifndef AppDefines_h
@@ -21,6 +21,8 @@
 #define APPLOG(...) DDLogVerbose(__VA_ARGS__)
 #define APPLOGInfo(...) DDLogInfo(__VA_ARGS__)
 #define APPLOGWarn(...) DDLogWarn(__VA_ARGS__)
+
+#define APP_Image_WorkError [UIImage imageNamed:@"nian"]
 
 /********  常用宏  ********/
 #define ApplicationVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]

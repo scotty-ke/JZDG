@@ -86,6 +86,12 @@
 		71EF9C1B205030E5002DF016 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9C17205030E5002DF016 /* RegisterViewController.m */; };
 		71EF9C1C205030E5002DF016 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71EF9C18205030E5002DF016 /* RegisterViewController.xib */; };
 		71EF9C21205032FE002DF016 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9C20205032FE002DF016 /* UINavigationBar+Awesome.m */; };
+		C551EAF22050CF0A00512E3A /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EAF12050CF0A00512E3A /* TabbarViewController.m */; };
+		C551EAF82050CF5D00512E3A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EAF72050CF5D00512E3A /* MainViewController.m */; };
+		C551EAFB2050CF6E00512E3A /* BusCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EAFA2050CF6E00512E3A /* BusCircleViewController.m */; };
+		C551EAFE2050CF8A00512E3A /* PersonCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EAFD2050CF8A00512E3A /* PersonCenterViewController.m */; };
+		C551EB032050D15000512E3A /* AppDelegate+function.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EB022050D15000512E3A /* AppDelegate+function.m */; };
+		C551EB0A205120BD00512E3A /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = C551EB09205120BD00512E3A /* area.plist */; };
 		C5BAAA46204FD8E900E6AEDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAAA45204FD8E900E6AEDB /* AppDelegate.m */; };
 		C5BAAA49204FD8E900E6AEDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAAA48204FD8E900E6AEDB /* ViewController.m */; };
 		C5BAAA4C204FD8E900E6AEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BAAA4A204FD8E900E6AEDB /* Main.storyboard */; };
@@ -269,6 +275,17 @@
 		71EF9C1F205032FE002DF016 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
 		71EF9C20205032FE002DF016 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
 		7C01859FCF65D1326C957074 /* libPods-芥子帝国.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-芥子帝国.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C551EAF02050CF0A00512E3A /* TabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		C551EAF12050CF0A00512E3A /* TabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		C551EAF62050CF5D00512E3A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C551EAF72050CF5D00512E3A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C551EAF92050CF6E00512E3A /* BusCircleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusCircleViewController.h; sourceTree = "<group>"; };
+		C551EAFA2050CF6E00512E3A /* BusCircleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusCircleViewController.m; sourceTree = "<group>"; };
+		C551EAFC2050CF8A00512E3A /* PersonCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonCenterViewController.h; sourceTree = "<group>"; };
+		C551EAFD2050CF8A00512E3A /* PersonCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonCenterViewController.m; sourceTree = "<group>"; };
+		C551EB012050D15000512E3A /* AppDelegate+function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+function.h"; sourceTree = "<group>"; };
+		C551EB022050D15000512E3A /* AppDelegate+function.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+function.m"; sourceTree = "<group>"; };
+		C551EB09205120BD00512E3A /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
 		C5BAAA41204FD8E900E6AEDB /* 芥子帝国.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "芥子帝国.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5BAAA44204FD8E900E6AEDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5BAAA45204FD8E900E6AEDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -328,8 +345,12 @@
 		71EF9AE720502F2C002DF016 /* UI_logic */ = {
 			isa = PBXGroup;
 			children = (
+				C551EAEF2050CEBA00512E3A /* Tabbar */,
 				71EF9C11205030E5002DF016 /* Login */,
 				71EF9C15205030E5002DF016 /* Register */,
+				C551EAF52050CF3200512E3A /* MainVC */,
+				C551EAF42050CF2F00512E3A /* BusCircleVC */,
+				C551EAF32050CF2C00512E3A /* MeVC */,
 			);
 			path = UI_logic;
 			sourceTree = "<group>";
@@ -887,6 +908,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C551EAEF2050CEBA00512E3A /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C551EAF02050CF0A00512E3A /* TabbarViewController.h */,
+				C551EAF12050CF0A00512E3A /* TabbarViewController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		C551EAF32050CF2C00512E3A /* MeVC */ = {
+			isa = PBXGroup;
+			children = (
+				C551EAFC2050CF8A00512E3A /* PersonCenterViewController.h */,
+				C551EAFD2050CF8A00512E3A /* PersonCenterViewController.m */,
+			);
+			path = MeVC;
+			sourceTree = "<group>";
+		};
+		C551EAF42050CF2F00512E3A /* BusCircleVC */ = {
+			isa = PBXGroup;
+			children = (
+				C551EAF92050CF6E00512E3A /* BusCircleViewController.h */,
+				C551EAFA2050CF6E00512E3A /* BusCircleViewController.m */,
+			);
+			path = BusCircleVC;
+			sourceTree = "<group>";
+		};
+		C551EAF52050CF3200512E3A /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				C551EAF62050CF5D00512E3A /* MainViewController.h */,
+				C551EAF72050CF5D00512E3A /* MainViewController.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
 		C5BAAA38204FD8E900E6AEDB = {
 			isa = PBXGroup;
 			children = (
@@ -916,6 +973,8 @@
 				C5BAAA8A204FEAFF00E6AEDB /* Resource */,
 				C5BAAA44204FD8E900E6AEDB /* AppDelegate.h */,
 				C5BAAA45204FD8E900E6AEDB /* AppDelegate.m */,
+				C551EB012050D15000512E3A /* AppDelegate+function.h */,
+				C551EB022050D15000512E3A /* AppDelegate+function.m */,
 				C5BAAA47204FD8E900E6AEDB /* ViewController.h */,
 				C5BAAA48204FD8E900E6AEDB /* ViewController.m */,
 				C5BAAA4A204FD8E900E6AEDB /* Main.storyboard */,
@@ -958,6 +1017,7 @@
 		C5BAAA8A204FEAFF00E6AEDB /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				C551EB09205120BD00512E3A /* area.plist */,
 				71EF9C1D20503161002DF016 /* AppDefines.h */,
 				C5BAAA8C204FEB3700E6AEDB /* Color.h */,
 				C5BAAA8B204FEB3600E6AEDB /* UIPageDefines.h */,
@@ -1076,6 +1136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5BAAA51204FD8E900E6AEDB /* LaunchScreen.storyboard in Resources */,
+				C551EB0A205120BD00512E3A /* area.plist in Resources */,
 				71EF9C1C205030E5002DF016 /* RegisterViewController.xib in Resources */,
 				71EF9BE020503059002DF016 /* ZYQAssetPicker.Bundle in Resources */,
 				C5BAAA4E204FD8E900E6AEDB /* Assets.xcassets in Resources */,
@@ -1111,13 +1172,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-芥子帝国-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DBCF96D2A5870DC3F2ABFE4C /* [CP] Copy Pods Resources */ = {
@@ -1126,9 +1190,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-芥子帝国/Pods-芥子帝国-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/MWPhotoBrowser/MWPhotoBrowser.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1162,6 +1231,7 @@
 				71EF9BD820503059002DF016 /* MJPhotoView.m in Sources */,
 				71EF9BEB20503059002DF016 /* DDPageViewController.m in Sources */,
 				71EF9C0220503059002DF016 /* LxcStyleModel.m in Sources */,
+				C551EAF22050CF0A00512E3A /* TabbarViewController.m in Sources */,
 				71EF9C0B20503059002DF016 /* UILabel+Copy.m in Sources */,
 				71EF9BC520503059002DF016 /* DDNavigationViewController.m in Sources */,
 				71EF9BF120503059002DF016 /* DDAlertView.m in Sources */,
@@ -1188,8 +1258,10 @@
 				71EF9BEF20503059002DF016 /* GCPlaceholderTextView.m in Sources */,
 				71EF9BDE20503059002DF016 /* AQPhotoPickerView.m in Sources */,
 				71EF9BED20503059002DF016 /* DDTextField.m in Sources */,
+				C551EB032050D15000512E3A /* AppDelegate+function.m in Sources */,
 				71EF9C1020503059002DF016 /* UITextField+ExtentRange.m in Sources */,
 				71EF9BC420503059002DF016 /* UIViewController+pop.m in Sources */,
+				C551EAFE2050CF8A00512E3A /* PersonCenterViewController.m in Sources */,
 				71EF9BE320503059002DF016 /* CommonChartCell.m in Sources */,
 				C5BAAA54204FD8E900E6AEDB /* main.m in Sources */,
 				71EF9BC820503059002DF016 /* HcdActionSheet.m in Sources */,
@@ -1219,9 +1291,11 @@
 				71EF9C0720503059002DF016 /* VIPhotoViewController.m in Sources */,
 				71EF9AF420502F2C002DF016 /* DDRefreshFooter.m in Sources */,
 				C5BAAA46204FD8E900E6AEDB /* AppDelegate.m in Sources */,
+				C551EAF82050CF5D00512E3A /* MainViewController.m in Sources */,
 				71EF9C1B205030E5002DF016 /* RegisterViewController.m in Sources */,
 				71EF9BD020503059002DF016 /* ImageZoomViewController.m in Sources */,
 				71EF9BD920503059002DF016 /* SDBrowserImageView.m in Sources */,
+				C551EAFB2050CF6E00512E3A /* BusCircleViewController.m in Sources */,
 				71EF9BCE20503059002DF016 /* DocumentTypeView.m in Sources */,
 				71EF9BEC20503059002DF016 /* DDPopup.m in Sources */,
 				71EF9BC920503059002DF016 /* AdView.m in Sources */,

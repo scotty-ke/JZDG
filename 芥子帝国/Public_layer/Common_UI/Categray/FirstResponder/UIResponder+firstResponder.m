@@ -1,9 +1,9 @@
 //
 //  UIResponder+firstResponder.m
-//  easydoctor
+//  芥子帝国
 //
-//  Created by 丁东 on 2017/1/16.
-//  Copyright © 2017年 easygroup. All rights reserved.
+//  Created by 纳里健康 on 2018/3/8.
+//  Copyright © 2018年 songK. All rights reserved.
 //
 
 #import "UIResponder+firstResponder.h"

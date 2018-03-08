@@ -24,6 +24,8 @@
 
 #import "BaseViewController.h"
 
+#import "DDNavigationViewController.h"
+
 #endif
 
 

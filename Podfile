@@ -12,4 +12,5 @@ target '芥子帝国' do
    pod 'MBProgressHUD', '~> 0.9'
    pod 'Masonry', '~> 1.0.1'
    pod 'MWPhotoBrowser', '~> 2.1.2'
+   pod 'IQKeyboardManager', '3.3.7'
 end

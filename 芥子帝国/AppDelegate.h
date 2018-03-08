@@ -7,11 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TabbarViewController.h"
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+/**
+ *  TabbarViewController 避免重复创建
+ */
+@property(nonatomic,strong) TabbarViewController *tabbarViewController;
+
+/**
+ *  LoginViewController 避免重复创建
+ */
+@property (nonatomic,strong) DDNavigationViewController *loginViewVC;
 
 @end
 

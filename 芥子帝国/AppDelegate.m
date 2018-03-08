@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDelegate+function.h"
+#import <IQKeyboardManager.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    [self changeRootViewcontroller];
+    
+    self.window.backgroundColor = BACKGROUND_COLOR;
+    
+    if (!self.tabbarViewController)
+    {
+        self.tabbarViewController = [[TabbarViewController alloc]init];
+    }
+    self.window.rootViewController = self.tabbarViewController;
+    
+    [IQKeyboardManager sharedManager].enable = YES;
+    
     return YES;
 }
 

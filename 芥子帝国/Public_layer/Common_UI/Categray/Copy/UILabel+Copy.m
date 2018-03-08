@@ -1,9 +1,9 @@
 //
 //  UILabel+Copy.m
-//  NagriHealth
+//  芥子帝国
 //
-//  Created by 刘星辰 on 2016/11/28.
-//  Copyright © 2016年 丁东. All rights reserved.
+//  Created by 纳里健康 on 2018/3/8.
+//  Copyright © 2018年 songK. All rights reserved.
 //
 
 #import "UILabel+Copy.h"

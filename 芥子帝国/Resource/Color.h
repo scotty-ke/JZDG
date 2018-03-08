@@ -1,9 +1,9 @@
 //
 //  Color.h
-//  easydoctor
+//  芥子帝国
 //
-//  Created by 丁东 on 15/10/21.
-//  Copyright © 2015年 easygroup. All rights reserved.
+//  Created by 纳里健康 on 2018/3/8.
+//  Copyright © 2018年 songK. All rights reserved.
 //
 
 #ifndef Color_h
@@ -18,8 +18,8 @@
 #define RGBCOLOR(r,g,b)    [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
 #define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 
-//主题色 - 绿色
-#define TOPCAIL_COLOR  [UIColor cyanColor]
+//主题色 - 蓝色
+#define TOPCAIL_COLOR  RGBCOLOR(46,118,251)
 #define ZHUAN_COLOR UIColorFromRGB(0x42d049)
 //背景底色
 #define BACKGROUND_COLOR UIColorFromRGB(0xf5f5f5)
