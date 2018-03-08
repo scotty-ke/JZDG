@@ -81,10 +81,6 @@
 		71EF9C0E20503059002DF016 /* UIViewController+Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9BBC20503059002DF016 /* UIViewController+Judge.m */; };
 		71EF9C0F20503059002DF016 /* KeyboardX.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9BBF20503059002DF016 /* KeyboardX.m */; };
 		71EF9C1020503059002DF016 /* UITextField+ExtentRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9BC120503059002DF016 /* UITextField+ExtentRange.m */; };
-		71EF9C19205030E5002DF016 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9C13205030E5002DF016 /* LoginViewController.m */; };
-		71EF9C1A205030E5002DF016 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71EF9C14205030E5002DF016 /* LoginViewController.xib */; };
-		71EF9C1B205030E5002DF016 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9C17205030E5002DF016 /* RegisterViewController.m */; };
-		71EF9C1C205030E5002DF016 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71EF9C18205030E5002DF016 /* RegisterViewController.xib */; };
 		71EF9C21205032FE002DF016 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9C20205032FE002DF016 /* UINavigationBar+Awesome.m */; };
 		C551EAF22050CF0A00512E3A /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EAF12050CF0A00512E3A /* TabbarViewController.m */; };
 		C551EAF82050CF5D00512E3A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EAF72050CF5D00512E3A /* MainViewController.m */; };
@@ -92,6 +88,14 @@
 		C551EAFE2050CF8A00512E3A /* PersonCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EAFD2050CF8A00512E3A /* PersonCenterViewController.m */; };
 		C551EB032050D15000512E3A /* AppDelegate+function.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EB022050D15000512E3A /* AppDelegate+function.m */; };
 		C551EB0A205120BD00512E3A /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = C551EB09205120BD00512E3A /* area.plist */; };
+		C551EB152051235F00512E3A /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EB0E2051235F00512E3A /* RegisterViewController.m */; };
+		C551EB162051235F00512E3A /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C551EB0F2051235F00512E3A /* RegisterViewController.xib */; };
+		C551EB172051235F00512E3A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EB122051235F00512E3A /* LoginViewController.m */; };
+		C551EB182051235F00512E3A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C551EB132051235F00512E3A /* LoginViewController.xib */; };
+		C551EB1D2051238000512E3A /* ForgetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EB1B2051238000512E3A /* ForgetPwdViewController.m */; };
+		C551EB1E2051238000512E3A /* ForgetPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C551EB1C2051238000512E3A /* ForgetPwdViewController.xib */; };
+		C551EB2220512C3A00512E3A /* setPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551EB2020512C3A00512E3A /* setPwdViewController.m */; };
+		C551EB2320512C3A00512E3A /* setPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C551EB2120512C3A00512E3A /* setPwdViewController.xib */; };
 		C5BAAA46204FD8E900E6AEDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAAA45204FD8E900E6AEDB /* AppDelegate.m */; };
 		C5BAAA49204FD8E900E6AEDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BAAA48204FD8E900E6AEDB /* ViewController.m */; };
 		C5BAAA4C204FD8E900E6AEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BAAA4A204FD8E900E6AEDB /* Main.storyboard */; };
@@ -265,12 +269,6 @@
 		71EF9BBF20503059002DF016 /* KeyboardX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardX.m; sourceTree = "<group>"; };
 		71EF9BC020503059002DF016 /* UITextField+ExtentRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ExtentRange.h"; sourceTree = "<group>"; };
 		71EF9BC120503059002DF016 /* UITextField+ExtentRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ExtentRange.m"; sourceTree = "<group>"; };
-		71EF9C12205030E5002DF016 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		71EF9C13205030E5002DF016 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		71EF9C14205030E5002DF016 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		71EF9C16205030E5002DF016 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		71EF9C17205030E5002DF016 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
-		71EF9C18205030E5002DF016 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		71EF9C1D20503161002DF016 /* AppDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDefines.h; sourceTree = "<group>"; };
 		71EF9C1F205032FE002DF016 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
 		71EF9C20205032FE002DF016 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
@@ -286,6 +284,18 @@
 		C551EB012050D15000512E3A /* AppDelegate+function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+function.h"; sourceTree = "<group>"; };
 		C551EB022050D15000512E3A /* AppDelegate+function.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+function.m"; sourceTree = "<group>"; };
 		C551EB09205120BD00512E3A /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		C551EB0E2051235F00512E3A /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		C551EB0F2051235F00512E3A /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		C551EB102051235F00512E3A /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		C551EB122051235F00512E3A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C551EB132051235F00512E3A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C551EB142051235F00512E3A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C551EB1A2051238000512E3A /* ForgetPwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPwdViewController.h; sourceTree = "<group>"; };
+		C551EB1B2051238000512E3A /* ForgetPwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdViewController.m; sourceTree = "<group>"; };
+		C551EB1C2051238000512E3A /* ForgetPwdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPwdViewController.xib; sourceTree = "<group>"; };
+		C551EB1F20512C3A00512E3A /* setPwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = setPwdViewController.h; sourceTree = "<group>"; };
+		C551EB2020512C3A00512E3A /* setPwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = setPwdViewController.m; sourceTree = "<group>"; };
+		C551EB2120512C3A00512E3A /* setPwdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = setPwdViewController.xib; sourceTree = "<group>"; };
 		C5BAAA41204FD8E900E6AEDB /* 芥子帝国.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "芥子帝国.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5BAAA44204FD8E900E6AEDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5BAAA45204FD8E900E6AEDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -345,9 +355,8 @@
 		71EF9AE720502F2C002DF016 /* UI_logic */ = {
 			isa = PBXGroup;
 			children = (
+				C551EB0C2051233800512E3A /* loginAndRegister */,
 				C551EAEF2050CEBA00512E3A /* Tabbar */,
-				71EF9C11205030E5002DF016 /* Login */,
-				71EF9C15205030E5002DF016 /* Register */,
 				C551EAF52050CF3200512E3A /* MainVC */,
 				C551EAF42050CF2F00512E3A /* BusCircleVC */,
 				C551EAF32050CF2C00512E3A /* MeVC */,
@@ -862,26 +871,6 @@
 			path = KeyboardX;
 			sourceTree = "<group>";
 		};
-		71EF9C11205030E5002DF016 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				71EF9C12205030E5002DF016 /* LoginViewController.h */,
-				71EF9C13205030E5002DF016 /* LoginViewController.m */,
-				71EF9C14205030E5002DF016 /* LoginViewController.xib */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		71EF9C15205030E5002DF016 /* Register */ = {
-			isa = PBXGroup;
-			children = (
-				71EF9C16205030E5002DF016 /* RegisterViewController.h */,
-				71EF9C17205030E5002DF016 /* RegisterViewController.m */,
-				71EF9C18205030E5002DF016 /* RegisterViewController.xib */,
-			);
-			path = Register;
-			sourceTree = "<group>";
-		};
 		71EF9C1E205032FE002DF016 /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -942,6 +931,49 @@
 				C551EAF72050CF5D00512E3A /* MainViewController.m */,
 			);
 			path = MainVC;
+			sourceTree = "<group>";
+		};
+		C551EB0C2051233800512E3A /* loginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				C551EB192051236600512E3A /* ForgetPwd */,
+				C551EB112051235F00512E3A /* Login */,
+				C551EB0D2051235E00512E3A /* Register */,
+			);
+			path = loginAndRegister;
+			sourceTree = "<group>";
+		};
+		C551EB0D2051235E00512E3A /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				C551EB102051235F00512E3A /* RegisterViewController.h */,
+				C551EB0E2051235F00512E3A /* RegisterViewController.m */,
+				C551EB0F2051235F00512E3A /* RegisterViewController.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		C551EB112051235F00512E3A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C551EB142051235F00512E3A /* LoginViewController.h */,
+				C551EB122051235F00512E3A /* LoginViewController.m */,
+				C551EB132051235F00512E3A /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C551EB192051236600512E3A /* ForgetPwd */ = {
+			isa = PBXGroup;
+			children = (
+				C551EB1A2051238000512E3A /* ForgetPwdViewController.h */,
+				C551EB1B2051238000512E3A /* ForgetPwdViewController.m */,
+				C551EB1C2051238000512E3A /* ForgetPwdViewController.xib */,
+				C551EB1F20512C3A00512E3A /* setPwdViewController.h */,
+				C551EB2020512C3A00512E3A /* setPwdViewController.m */,
+				C551EB2120512C3A00512E3A /* setPwdViewController.xib */,
+			);
+			path = ForgetPwd;
 			sourceTree = "<group>";
 		};
 		C5BAAA38204FD8E900E6AEDB = {
@@ -1136,16 +1168,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5BAAA51204FD8E900E6AEDB /* LaunchScreen.storyboard in Resources */,
+				C551EB162051235F00512E3A /* RegisterViewController.xib in Resources */,
+				C551EB182051235F00512E3A /* LoginViewController.xib in Resources */,
 				C551EB0A205120BD00512E3A /* area.plist in Resources */,
-				71EF9C1C205030E5002DF016 /* RegisterViewController.xib in Resources */,
 				71EF9BE020503059002DF016 /* ZYQAssetPicker.Bundle in Resources */,
 				C5BAAA4E204FD8E900E6AEDB /* Assets.xcassets in Resources */,
 				71EF9BE920503059002DF016 /* DDPageHeaderCell.xib in Resources */,
 				71EF9BD320503059002DF016 /* MJPhotoBrowser.bundle in Resources */,
 				71EF9BE620503059002DF016 /* IconTitleValueCell.xib in Resources */,
+				C551EB1E2051238000512E3A /* ForgetPwdViewController.xib in Resources */,
 				C5BAAA4C204FD8E900E6AEDB /* Main.storyboard in Resources */,
+				C551EB2320512C3A00512E3A /* setPwdViewController.xib in Resources */,
 				71EF9BE420503059002DF016 /* CommonChartCell.xib in Resources */,
-				71EF9C1A205030E5002DF016 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1232,6 +1266,8 @@
 				71EF9BEB20503059002DF016 /* DDPageViewController.m in Sources */,
 				71EF9C0220503059002DF016 /* LxcStyleModel.m in Sources */,
 				C551EAF22050CF0A00512E3A /* TabbarViewController.m in Sources */,
+				C551EB172051235F00512E3A /* LoginViewController.m in Sources */,
+				C551EB2220512C3A00512E3A /* setPwdViewController.m in Sources */,
 				71EF9C0B20503059002DF016 /* UILabel+Copy.m in Sources */,
 				71EF9BC520503059002DF016 /* DDNavigationViewController.m in Sources */,
 				71EF9BF120503059002DF016 /* DDAlertView.m in Sources */,
@@ -1246,6 +1282,7 @@
 				71EF9BDD20503059002DF016 /* UIImageView+MJWebCache.m in Sources */,
 				C5BAAA49204FD8E900E6AEDB /* ViewController.m in Sources */,
 				71EF9BF320503059002DF016 /* FoldLabel.m in Sources */,
+				C551EB1D2051238000512E3A /* ForgetPwdViewController.m in Sources */,
 				71EF9BE220503059002DF016 /* AttentionHeaderCell.m in Sources */,
 				71EF9BC220503059002DF016 /* BaseModel.m in Sources */,
 				71EF9C0820503059002DF016 /* YRBorderView.m in Sources */,
@@ -1281,18 +1318,17 @@
 				71EF9C0920503059002DF016 /* ZHPickView.m in Sources */,
 				71EF9BE120503059002DF016 /* ZYQAssetPickerController.m in Sources */,
 				71EF9C0420503059002DF016 /* LabelTextViewCell.m in Sources */,
-				71EF9C19205030E5002DF016 /* LoginViewController.m in Sources */,
 				71EF9BC720503059002DF016 /* Request.m in Sources */,
 				71EF9BD220503059002DF016 /* MJPhoto.m in Sources */,
 				71EF9AF620502F2C002DF016 /* Public.m in Sources */,
 				71EF9AF520502F2C002DF016 /* DDRefreshHader.m in Sources */,
 				71EF9BE720503059002DF016 /* DDPageConfig.m in Sources */,
 				71EF9BF020503059002DF016 /* DDWebViewController.m in Sources */,
+				C551EB152051235F00512E3A /* RegisterViewController.m in Sources */,
 				71EF9C0720503059002DF016 /* VIPhotoViewController.m in Sources */,
 				71EF9AF420502F2C002DF016 /* DDRefreshFooter.m in Sources */,
 				C5BAAA46204FD8E900E6AEDB /* AppDelegate.m in Sources */,
 				C551EAF82050CF5D00512E3A /* MainViewController.m in Sources */,
-				71EF9C1B205030E5002DF016 /* RegisterViewController.m in Sources */,
 				71EF9BD020503059002DF016 /* ImageZoomViewController.m in Sources */,
 				71EF9BD920503059002DF016 /* SDBrowserImageView.m in Sources */,
 				C551EAFB2050CF6E00512E3A /* BusCircleViewController.m in Sources */,

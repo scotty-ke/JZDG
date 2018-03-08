@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "RegisterViewController.h"
+#import "ForgetPwdViewController.h"
 #import "TabbarViewController.h"
 #import "AppDelegate+function.h"
 
@@ -121,9 +122,7 @@
  */
 - (IBAction)clickForgetBtn:(id)sender
 {
-    RegisterViewController *forgetPwdVc = [[RegisterViewController alloc] init];
-
-    forgetPwdVc.type = forgetPwdViewController;
+    ForgetPwdViewController *forgetPwdVc = [[ForgetPwdViewController alloc] init];
 
     [self.navigationController pushViewController:forgetPwdVc animated:YES];
 
@@ -172,6 +171,8 @@
     }
     return YES;
 }
+
+
 
 //
 //- (void)dealloc

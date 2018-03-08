@@ -62,10 +62,9 @@
     _pwdTF.delegate = self;
     _rePwdTF.delegate = self;
     
-    [_verifyBtn setCornerFrame];
     _verifyBtn.showsTouchWhenHighlighted = YES;
     _nextBtn.showsTouchWhenHighlighted = YES;
-
+    _nextBtn.backgroundColor = TOPCAIL_COLOR;
     
     //协议label
     NSMutableAttributedString *attributeStr = [[NSMutableAttributedString alloc] initWithString:@"注册即代表您同意《用户协议》"];
@@ -127,30 +126,6 @@
     return YES;
 }
 
-
-
-#pragma mark - 验证码编辑事件
-- (void)verifyFieldTextChange:(UITextField *)textField
-{
-    if(_verifyTF.text.length >=4){
-        
-        _verifyTF.text = [_verifyTF.text substringToIndex:4];
-    }
-}
-
--(void)textFieldTextChange:(UITextField*)textField
-{
-    UITextRange *selectedRange = [textField markedTextRange];
-    //获取高亮部分
-    UITextPosition *position = [textField positionFromPosition:selectedRange.start offset:0];
-    // 没有高亮选择的字，则对已输入的文字进行字数统计和限制
-    if (!position)
-    {
-        if (_nameTF.text.length >= 11) {
-            _nameTF.text = [_nameTF.text substringToIndex:11];
-        }
-    }
-}
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
