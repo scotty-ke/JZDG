@@ -6,15 +6,15 @@
 //  Copyright © 2018年 刘星辰. All rights reserved.
 //
 
-#import "NHPopView.h"
+#import "JZPopView.h"
 //#import "NHUINotification.h"
 
-@interface NHPopView()<UIGestureRecognizerDelegate>
+@interface JZPopView()<UIGestureRecognizerDelegate>
 
 @end
 
 
-@implementation NHPopView
+@implementation JZPopView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -57,19 +57,19 @@
     
     switch (self.postion)
     {
-        case NHPopupPostionUp:
+        case JZPopupPostionUp:
         {
             contentView.top = self.height;
             contentView.left = (self.width - contentView.width) / 2.0;
         }
             break;
-        case NHPopupPostionDown:
+        case JZPopupPostionDown:
         {
             contentView.top = - contentView.height;
             contentView.left = (self.width - contentView.width) / 2.0;
         }
             break;
-        case NHPopupPostionCenter:
+        case JZPopupPostionCenter:
         {
             contentView.center = CGRectGetCenter(self.frame);;
             contentView.transform = CGAffineTransformMakeScale(0.8, 0.8);
@@ -81,22 +81,22 @@
             break;
     }
     
-    self.state = NHPopupStateDidClose;
+    self.state = JZPopupStateDidClose;
 }
 
 - (void)addInView:(UIView *)view
   withContentView:(UIView *)contentView
-     didShowBlock:(__NHPopupDidShowBlock)showBlock
-   didHiddenBlock:(__NHPopupDidHiddenBlock)hiddenBlck
+     didShowBlock:(__JZPopupDidShowBlock)showBlock
+   didHiddenBlock:(__JZPopupDidHiddenBlock)hiddenBlck
 {
     self.showBlock = showBlock;
     self.hiddenBlcok = hiddenBlck;
     [self addInView:view withContentView:contentView];
 }
 
--(void)showWithDidShowBlock:(__NHPopupDidShowBlock)showBlock
+-(void)showWithDidShowBlock:(__JZPopupDidShowBlock)showBlock
 {
-    if (self.state == NHPopupStateDidClose)
+    if (self.state == JZPopupStateDidClose)
     {
         self.hidden = NO;
         self.contentView.hidden = NO;
@@ -107,17 +107,17 @@
          {
              switch (self.postion)
              {
-                 case NHPopupPostionUp:
+                 case JZPopupPostionUp:
                  {
                      _contentView.top = self.height - _contentView.height - self.insets.bottom;
                  }
                      break;
-                 case NHPopupPostionDown:
+                 case JZPopupPostionDown:
                  {
                      _contentView.top = 0.0 + self.insets.top;
                  }
                      break;
-                 case NHPopupPostionCenter:
+                 case JZPopupPostionCenter:
                  {
                      _contentView.top = _contentView.top - (self.insets.top - self.insets.bottom);
                      _contentView.left = (self.insets.left != 0)?(self.insets.left):(_contentView.left);
@@ -134,7 +134,7 @@
          }
                          completion:^(BOOL finished)
          {
-             self.state = NHPopupStateDidOpen;
+             self.state = JZPopupStateDidOpen;
              if (showBlock)
              {
                  showBlock(self);
@@ -150,9 +150,9 @@
 }
 
 
--(void)hiddenWithDidHiddenBlock:(__NHPopupDidHiddenBlock)hidddenBlock
+-(void)hiddenWithDidHiddenBlock:(__JZPopupDidHiddenBlock)hidddenBlock
 {
-    if (self.state == NHPopupStateDidOpen)
+    if (self.state == JZPopupStateDidOpen)
     {
         [UIView animateWithDuration:0.3
                          animations:^
@@ -160,17 +160,17 @@
              self.backgroundColor = [[UIColor blackColor]colorWithAlphaComponent:0];
              switch (self.postion)
              {
-                 case NHPopupPostionUp:
+                 case JZPopupPostionUp:
                  {
                      _contentView.top = self.height;
                  }
                      break;
-                 case NHPopupPostionDown:
+                 case JZPopupPostionDown:
                  {
                      _contentView.top = - _contentView.height;
                  }
                      break;
-                 case NHPopupPostionCenter:
+                 case JZPopupPostionCenter:
                  {
                      _contentView.transform = CGAffineTransformMakeScale(0.8, 0.8);
                      _contentView.alpha = 0.0f;
@@ -182,9 +182,9 @@
          }
                          completion:^(BOOL finished)
          {
-             self.state = NHPopupStateDidClose;
+             self.state = JZPopupStateDidClose;
              self.hidden = YES;
-             if (self.postion == NHPopupPostionCenter)
+             if (self.postion == JZPopupPostionCenter)
              {
                  _contentView.transform = CGAffineTransformIdentity;
                  _contentView.hidden = YES;

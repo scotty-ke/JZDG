@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2BB3C124E21308A9F9295B60 /* libPods-芥子帝国.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C01859FCF65D1326C957074 /* libPods-芥子帝国.a */; };
 		6930CA1B205174B800BCB9C1 /* JZRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6930CA1A205174B800BCB9C1 /* JZRefresh.m */; };
-		6930CA1E2051761300BCB9C1 /* NHPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6930CA1C2051761200BCB9C1 /* NHPopView.m */; };
+		6930CA1E2051761300BCB9C1 /* JZPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6930CA1C2051761200BCB9C1 /* JZPopView.m */; };
 		71EF9AF620502F2C002DF016 /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AF020502F2C002DF016 /* Public.m */; };
 		71EF9AF720502F2C002DF016 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AF320502F2C002DF016 /* UIViewExt.m */; };
 		71EF9BC220503059002DF016 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AFB20503058002DF016 /* BaseModel.m */; };
@@ -127,8 +127,8 @@
 		4328944601284054D7C43D80 /* Pods-芥子帝国.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-芥子帝国.release.xcconfig"; path = "Pods/Target Support Files/Pods-芥子帝国/Pods-芥子帝国.release.xcconfig"; sourceTree = "<group>"; };
 		6930CA19205174B800BCB9C1 /* JZRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZRefresh.h; sourceTree = "<group>"; };
 		6930CA1A205174B800BCB9C1 /* JZRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZRefresh.m; sourceTree = "<group>"; };
-		6930CA1C2051761200BCB9C1 /* NHPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHPopView.m; sourceTree = "<group>"; };
-		6930CA1D2051761200BCB9C1 /* NHPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPopView.h; sourceTree = "<group>"; };
+		6930CA1C2051761200BCB9C1 /* JZPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZPopView.m; sourceTree = "<group>"; };
+		6930CA1D2051761200BCB9C1 /* JZPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZPopView.h; sourceTree = "<group>"; };
 		71EF9AE520502D3B002DF016 /* JZDG.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDG.pch; sourceTree = "<group>"; };
 		71EF9AEF20502F2C002DF016 /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
 		71EF9AF020502F2C002DF016 /* Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Public.m; sourceTree = "<group>"; };
@@ -634,8 +634,8 @@
 		71EF9B5A20503059002DF016 /* DDPopup */ = {
 			isa = PBXGroup;
 			children = (
-				6930CA1D2051761200BCB9C1 /* NHPopView.h */,
-				6930CA1C2051761200BCB9C1 /* NHPopView.m */,
+				6930CA1D2051761200BCB9C1 /* JZPopView.h */,
+				6930CA1C2051761200BCB9C1 /* JZPopView.m */,
 			);
 			path = DDPopup;
 			sourceTree = "<group>";
@@ -1284,7 +1284,7 @@
 				71EF9C0820503059002DF016 /* YRBorderView.m in Sources */,
 				71EF9C0E20503059002DF016 /* UIViewController+Judge.m in Sources */,
 				71EF9BD720503059002DF016 /* MJPhotoToolbar.m in Sources */,
-				6930CA1E2051761300BCB9C1 /* NHPopView.m in Sources */,
+				6930CA1E2051761300BCB9C1 /* JZPopView.m in Sources */,
 				71EF9BEE20503059002DF016 /* DDTextView.m in Sources */,
 				71EF9BF820503059002DF016 /* SexAgeView.m in Sources */,
 				71EF9C0620503059002DF016 /* VIPhotoView.m in Sources */,

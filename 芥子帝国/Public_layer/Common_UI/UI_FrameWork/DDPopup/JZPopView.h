@@ -8,26 +8,26 @@
 
 #import <UIKit/UIKit.h>
 
-@class NHPopView;
+@class JZPopView;
 
-typedef NS_ENUM(NSUInteger, NHPopupState) {
+typedef NS_ENUM(NSUInteger, JZPopupState) {
     /** 开启状态 */
-    NHPopupStateDidOpen = 1,
+    JZPopupStateDidOpen = 1,
     /** 关闭状态 */
-    NHPopupStateDidClose = 0,
+    JZPopupStateDidClose = 0,
 };
 
-typedef NS_ENUM(NSUInteger, NHPopupPostion) {
-    NHPopupPostionUp = 0,
-    NHPopupPostionDown = 1,
-    NHPopupPostionCenter = 2,
+typedef NS_ENUM(NSUInteger, JZPopupPostion) {
+    JZPopupPostionUp = 0,
+    JZPopupPostionDown = 1,
+    JZPopupPostionCenter = 2,
 };
 
 
-typedef void(^__NHPopupDidShowBlock)(NHPopView * view);
-typedef void(^__NHPopupDidHiddenBlock)(NHPopView * view);
+typedef void(^__JZPopupDidShowBlock)(JZPopView * view);
+typedef void(^__JZPopupDidHiddenBlock)(JZPopView * view);
 
-@interface NHPopView : UIView
+@interface JZPopView : UIView
 
 /**
  内容view
@@ -42,21 +42,21 @@ typedef void(^__NHPopupDidHiddenBlock)(NHPopView * view);
 /**
  弹窗状态
  */
-@property (nonatomic,assign) NHPopupState state;
+@property (nonatomic,assign) JZPopupState state;
 
 /**
  方向
  */
-@property (nonatomic,assign) NHPopupPostion postion;
+@property (nonatomic,assign) JZPopupPostion postion;
 
 /**
  显示的偏移量
  */
 @property (nonatomic,assign)UIEdgeInsets insets;
 
-@property (nonatomic,copy) __NHPopupDidShowBlock showBlock;
+@property (nonatomic,copy) __JZPopupDidShowBlock showBlock;
 
-@property (nonatomic,copy) __NHPopupDidHiddenBlock hiddenBlcok;
+@property (nonatomic,copy) __JZPopupDidHiddenBlock hiddenBlcok;
 
 
 /*
@@ -73,10 +73,10 @@ typedef void(^__NHPopupDidHiddenBlock)(NHPopView * view);
  */
 - (void)showOnWindowWithContentView:(UIView*)contentView;
 
--(void)showWithDidShowBlock:(__NHPopupDidShowBlock)showBlock;
+-(void)showWithDidShowBlock:(__JZPopupDidShowBlock)showBlock;
 
 
--(void)hiddenWithDidHiddenBlock:(__NHPopupDidHiddenBlock)hidddenBlock;
+-(void)hiddenWithDidHiddenBlock:(__JZPopupDidHiddenBlock)hidddenBlock;
 
 
 @end
