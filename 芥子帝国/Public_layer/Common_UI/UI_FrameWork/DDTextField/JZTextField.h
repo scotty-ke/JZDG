@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DDTextField : UITextField
+@interface JZTextField : UITextField
 
 @property (nonatomic) NSInteger maxNum; //最大字数
 

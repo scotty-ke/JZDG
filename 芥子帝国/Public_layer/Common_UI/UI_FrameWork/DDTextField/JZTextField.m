@@ -6,9 +6,9 @@
 //  Copyright © 2015年 easygroup. All rights reserved.
 //
 
-#import "DDTextField.h"
+#import "JZTextField.h"
 
-@implementation DDTextField
+@implementation JZTextField
 
 - (void)awakeFromNib {
     [super awakeFromNib];
