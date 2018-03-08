@@ -22,7 +22,7 @@
 /**
  *  LoginViewController 避免重复创建
  */
-@property (nonatomic,strong) DDNavigationViewController *loginViewVC;
+@property (nonatomic,strong) JZNavigationViewController *loginViewVC;
 
 @end
 

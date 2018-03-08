@@ -18,10 +18,28 @@
 
 
 //导航栏高度
-#define NAVIGATOR_HEIGHT 64.0f
+#define NAVIGATOR_HEIGHT (IS_IPHONE_X ? 88.0f : 64.0f)
+
+//iPhone 虚拟home键的高度
+#define HOMEBAR_HEIGHT (IS_IPHONE_X ? 34.0f : 0.0f)
 
 //UITabbarViewController
-#define TABBAR_HEIGHT 49.0f
+#define TABBAR_HEIGHT (IS_IPHONE_X ? 83.0f : 49.0f)
+
+#define IS_IPHONE_4 (( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )480) < DBL_EPSILON ))
+#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+#define IS_IPHONE_6 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )667 ) < DBL_EPSILON )
+#define IS_IPHONE_6_PLUS ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )736 ) < DBL_EPSILON )
+
+#define IS_IPHONE_X ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )812 ) < DBL_EPSILON )
+#define UUID [[UIDevice currentDevice].identifierForVendor UUIDString]
+
+
+#if DEBUG // Set to 1 to enable debug logging
+#define NSLog(x, ...) NSLog(x, ## __VA_ARGS__);
+#else
+#define NSLog(x, ...)
+#endif
 
 
 #endif /* UIPageDefines_h */

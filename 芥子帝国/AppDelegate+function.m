@@ -43,7 +43,7 @@
         if (!self.loginViewVC)
         {
             LoginViewController *loginVc = [[LoginViewController alloc] init];
-            self.loginViewVC = [[DDNavigationViewController alloc] initWithRootViewController:loginVc];
+            self.loginViewVC = [[JZNavigationViewController alloc] initWithRootViewController:loginVc];
         }
         [self.loginViewVC popToRootViewControllerAnimated:YES];
         

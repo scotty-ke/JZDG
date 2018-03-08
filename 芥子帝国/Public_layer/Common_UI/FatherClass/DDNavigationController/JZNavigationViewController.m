@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 铁木真. All rights reserved.
 //
 
-#import "DDNavigationViewController.h"
+#import "JZNavigationViewController.h"
 
-@interface DDNavigationViewController ()<UIGestureRecognizerDelegate>
+@interface JZNavigationViewController ()<UIGestureRecognizerDelegate>
 
 @property (strong, nonatomic)UIPanGestureRecognizer *panGestureRecognizer;
 @property (strong, nonatomic)UIImageView *backView;
@@ -19,7 +19,7 @@
 @property (nonatomic,assign) NSInteger toIndex;
 @end
 
-@implementation DDNavigationViewController
+@implementation JZNavigationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

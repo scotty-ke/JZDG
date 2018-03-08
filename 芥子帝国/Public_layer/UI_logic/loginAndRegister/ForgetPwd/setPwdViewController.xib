@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -24,7 +23,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zze-12-NKw">
-                    <rect key="frame" x="20" y="160" width="335" height="40"/>
+                    <rect key="frame" x="20" y="140" width="335" height="40"/>
                     <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="dEL-pK-dAY"/>
@@ -35,7 +34,7 @@
                     </state>
                 </button>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请再次输入密码" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Seb-yd-XGx">
-                    <rect key="frame" x="20" y="100" width="335" height="40"/>
+                    <rect key="frame" x="20" y="80" width="335" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="6pw-8g-d3z"/>
                     </constraints>
@@ -43,7 +42,7 @@
                     <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入6-12位密码，字母或数字" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="216-Y0-mFz">
-                    <rect key="frame" x="20" y="40" width="335" height="40"/>
+                    <rect key="frame" x="20" y="20" width="335" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="iZe-1b-WOs"/>
                     </constraints>
@@ -54,16 +53,15 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Seb-yd-XGx" firstAttribute="top" secondItem="216-Y0-mFz" secondAttribute="bottom" constant="20" id="0zq-N7-ruv"/>
-                <constraint firstItem="216-Y0-mFz" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="4SL-og-hbE"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="zze-12-NKw" secondAttribute="trailing" constant="20" id="5Dv-RY-Gu0"/>
-                <constraint firstItem="zze-12-NKw" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="GL6-fG-j1e"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="216-Y0-mFz" secondAttribute="trailing" constant="20" id="J8c-w8-prv"/>
+                <constraint firstItem="216-Y0-mFz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="4SL-og-hbE"/>
+                <constraint firstAttribute="trailing" secondItem="zze-12-NKw" secondAttribute="trailing" constant="20" id="5Dv-RY-Gu0"/>
+                <constraint firstItem="zze-12-NKw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="GL6-fG-j1e"/>
+                <constraint firstAttribute="trailing" secondItem="216-Y0-mFz" secondAttribute="trailing" constant="20" id="J8c-w8-prv"/>
                 <constraint firstItem="zze-12-NKw" firstAttribute="top" secondItem="Seb-yd-XGx" secondAttribute="bottom" constant="20" id="JwI-n9-PdS"/>
-                <constraint firstItem="216-Y0-mFz" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="Slr-oE-NfI"/>
-                <constraint firstItem="Seb-yd-XGx" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="Zyn-1H-NVF"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Seb-yd-XGx" secondAttribute="trailing" constant="20" id="xMp-I7-LKC"/>
+                <constraint firstItem="216-Y0-mFz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="Slr-oE-NfI"/>
+                <constraint firstItem="Seb-yd-XGx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Zyn-1H-NVF"/>
+                <constraint firstAttribute="trailing" secondItem="Seb-yd-XGx" secondAttribute="trailing" constant="20" id="xMp-I7-LKC"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <point key="canvasLocation" x="44.5" y="113.5"/>
         </view>
     </objects>

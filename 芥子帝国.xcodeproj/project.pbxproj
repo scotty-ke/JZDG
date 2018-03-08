@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2BB3C124E21308A9F9295B60 /* libPods-芥子帝国.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C01859FCF65D1326C957074 /* libPods-芥子帝国.a */; };
-		71EF9AF420502F2C002DF016 /* DDRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AEB20502F2C002DF016 /* DDRefreshFooter.m */; };
-		71EF9AF520502F2C002DF016 /* DDRefreshHader.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AED20502F2C002DF016 /* DDRefreshHader.m */; };
+		6930CA1B205174B800BCB9C1 /* JZRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6930CA1A205174B800BCB9C1 /* JZRefresh.m */; };
+		6930CA1E2051761300BCB9C1 /* NHPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6930CA1C2051761200BCB9C1 /* NHPopView.m */; };
 		71EF9AF620502F2C002DF016 /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AF020502F2C002DF016 /* Public.m */; };
 		71EF9AF720502F2C002DF016 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AF320502F2C002DF016 /* UIViewExt.m */; };
 		71EF9BC220503059002DF016 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AFB20503058002DF016 /* BaseModel.m */; };
 		71EF9BC320503059002DF016 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AFE20503058002DF016 /* BaseViewController.m */; };
 		71EF9BC420503059002DF016 /* UIViewController+pop.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B0020503058002DF016 /* UIViewController+pop.m */; };
-		71EF9BC520503059002DF016 /* DDNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B0320503058002DF016 /* DDNavigationViewController.m */; };
+		71EF9BC520503059002DF016 /* JZNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B0320503058002DF016 /* JZNavigationViewController.m */; };
 		71EF9BC620503059002DF016 /* DDsearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B0620503058002DF016 /* DDsearchBar.m */; };
 		71EF9BC720503059002DF016 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B0920503058002DF016 /* Request.m */; };
 		71EF9BC820503059002DF016 /* HcdActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B0D20503058002DF016 /* HcdActionSheet.m */; };
@@ -54,7 +54,6 @@
 		71EF9BE920503059002DF016 /* DDPageHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71EF9B5520503059002DF016 /* DDPageHeaderCell.xib */; };
 		71EF9BEA20503059002DF016 /* DDPageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B5720503059002DF016 /* DDPageHeaderView.m */; };
 		71EF9BEB20503059002DF016 /* DDPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B5920503059002DF016 /* DDPageViewController.m */; };
-		71EF9BEC20503059002DF016 /* DDPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B5C20503059002DF016 /* DDPopup.m */; };
 		71EF9BED20503059002DF016 /* DDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B5F20503059002DF016 /* DDTextField.m */; };
 		71EF9BEE20503059002DF016 /* DDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B6120503059002DF016 /* DDTextView.m */; };
 		71EF9BEF20503059002DF016 /* GCPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B6320503059002DF016 /* GCPlaceholderTextView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -126,11 +125,11 @@
 /* Begin PBXFileReference section */
 		0B25E49046AFC2AB495C4A87 /* Pods-芥子帝国.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-芥子帝国.debug.xcconfig"; path = "Pods/Target Support Files/Pods-芥子帝国/Pods-芥子帝国.debug.xcconfig"; sourceTree = "<group>"; };
 		4328944601284054D7C43D80 /* Pods-芥子帝国.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-芥子帝国.release.xcconfig"; path = "Pods/Target Support Files/Pods-芥子帝国/Pods-芥子帝国.release.xcconfig"; sourceTree = "<group>"; };
+		6930CA19205174B800BCB9C1 /* JZRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZRefresh.h; sourceTree = "<group>"; };
+		6930CA1A205174B800BCB9C1 /* JZRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZRefresh.m; sourceTree = "<group>"; };
+		6930CA1C2051761200BCB9C1 /* NHPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHPopView.m; sourceTree = "<group>"; };
+		6930CA1D2051761200BCB9C1 /* NHPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPopView.h; sourceTree = "<group>"; };
 		71EF9AE520502D3B002DF016 /* JZDG.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDG.pch; sourceTree = "<group>"; };
-		71EF9AEA20502F2C002DF016 /* DDRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRefreshFooter.h; sourceTree = "<group>"; };
-		71EF9AEB20502F2C002DF016 /* DDRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRefreshFooter.m; sourceTree = "<group>"; };
-		71EF9AEC20502F2C002DF016 /* DDRefreshHader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRefreshHader.h; sourceTree = "<group>"; };
-		71EF9AED20502F2C002DF016 /* DDRefreshHader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRefreshHader.m; sourceTree = "<group>"; };
 		71EF9AEF20502F2C002DF016 /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
 		71EF9AF020502F2C002DF016 /* Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Public.m; sourceTree = "<group>"; };
 		71EF9AF220502F2C002DF016 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
@@ -141,8 +140,8 @@
 		71EF9AFE20503058002DF016 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		71EF9AFF20503058002DF016 /* UIViewController+pop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+pop.h"; sourceTree = "<group>"; };
 		71EF9B0020503058002DF016 /* UIViewController+pop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+pop.m"; sourceTree = "<group>"; };
-		71EF9B0220503058002DF016 /* DDNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNavigationViewController.h; sourceTree = "<group>"; };
-		71EF9B0320503058002DF016 /* DDNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNavigationViewController.m; sourceTree = "<group>"; };
+		71EF9B0220503058002DF016 /* JZNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZNavigationViewController.h; sourceTree = "<group>"; };
+		71EF9B0320503058002DF016 /* JZNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZNavigationViewController.m; sourceTree = "<group>"; };
 		71EF9B0520503058002DF016 /* DDsearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDsearchBar.h; sourceTree = "<group>"; };
 		71EF9B0620503058002DF016 /* DDsearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDsearchBar.m; sourceTree = "<group>"; };
 		71EF9B0820503058002DF016 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
@@ -215,8 +214,6 @@
 		71EF9B5720503059002DF016 /* DDPageHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPageHeaderView.m; sourceTree = "<group>"; };
 		71EF9B5820503059002DF016 /* DDPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPageViewController.h; sourceTree = "<group>"; };
 		71EF9B5920503059002DF016 /* DDPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPageViewController.m; sourceTree = "<group>"; };
-		71EF9B5B20503059002DF016 /* DDPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPopup.h; sourceTree = "<group>"; };
-		71EF9B5C20503059002DF016 /* DDPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPopup.m; sourceTree = "<group>"; };
 		71EF9B5E20503059002DF016 /* DDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTextField.h; sourceTree = "<group>"; };
 		71EF9B5F20503059002DF016 /* DDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTextField.m; sourceTree = "<group>"; };
 		71EF9B6020503059002DF016 /* DDTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTextView.h; sourceTree = "<group>"; };
@@ -367,22 +364,20 @@
 		71EF9AE820502F2C002DF016 /* Common_Tool */ = {
 			isa = PBXGroup;
 			children = (
-				71EF9AE920502F2C002DF016 /* DDRefreshHeader */,
+				71EF9AE920502F2C002DF016 /* JZRefresh */,
 				71EF9AEE20502F2C002DF016 /* Public */,
 				71EF9AF120502F2C002DF016 /* UIViewExt */,
 			);
 			path = Common_Tool;
 			sourceTree = "<group>";
 		};
-		71EF9AE920502F2C002DF016 /* DDRefreshHeader */ = {
+		71EF9AE920502F2C002DF016 /* JZRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				71EF9AEA20502F2C002DF016 /* DDRefreshFooter.h */,
-				71EF9AEB20502F2C002DF016 /* DDRefreshFooter.m */,
-				71EF9AEC20502F2C002DF016 /* DDRefreshHader.h */,
-				71EF9AED20502F2C002DF016 /* DDRefreshHader.m */,
+				6930CA19205174B800BCB9C1 /* JZRefresh.h */,
+				6930CA1A205174B800BCB9C1 /* JZRefresh.m */,
 			);
-			path = DDRefreshHeader;
+			path = JZRefresh;
 			sourceTree = "<group>";
 		};
 		71EF9AEE20502F2C002DF016 /* Public */ = {
@@ -438,8 +433,8 @@
 		71EF9B0120503058002DF016 /* DDNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				71EF9B0220503058002DF016 /* DDNavigationViewController.h */,
-				71EF9B0320503058002DF016 /* DDNavigationViewController.m */,
+				71EF9B0220503058002DF016 /* JZNavigationViewController.h */,
+				71EF9B0320503058002DF016 /* JZNavigationViewController.m */,
 			);
 			path = DDNavigationController;
 			sourceTree = "<group>";
@@ -639,8 +634,8 @@
 		71EF9B5A20503059002DF016 /* DDPopup */ = {
 			isa = PBXGroup;
 			children = (
-				71EF9B5B20503059002DF016 /* DDPopup.h */,
-				71EF9B5C20503059002DF016 /* DDPopup.m */,
+				6930CA1D2051761200BCB9C1 /* NHPopView.h */,
+				6930CA1C2051761200BCB9C1 /* NHPopView.m */,
 			);
 			path = DDPopup;
 			sourceTree = "<group>";
@@ -1123,8 +1118,9 @@
 		C5BAAA39204FD8E900E6AEDB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JZ;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = songK;
+				ORGANIZATIONNAME = JZDG;
 				TargetAttributes = {
 					C5BAAA40204FD8E900E6AEDB = {
 						CreatedOnToolsVersion = 9.2;
@@ -1269,7 +1265,7 @@
 				C551EB172051235F00512E3A /* LoginViewController.m in Sources */,
 				C551EB2220512C3A00512E3A /* setPwdViewController.m in Sources */,
 				71EF9C0B20503059002DF016 /* UILabel+Copy.m in Sources */,
-				71EF9BC520503059002DF016 /* DDNavigationViewController.m in Sources */,
+				71EF9BC520503059002DF016 /* JZNavigationViewController.m in Sources */,
 				71EF9BF120503059002DF016 /* DDAlertView.m in Sources */,
 				71EF9AF720502F2C002DF016 /* UIViewExt.m in Sources */,
 				71EF9BC320503059002DF016 /* BaseViewController.m in Sources */,
@@ -1288,6 +1284,7 @@
 				71EF9C0820503059002DF016 /* YRBorderView.m in Sources */,
 				71EF9C0E20503059002DF016 /* UIViewController+Judge.m in Sources */,
 				71EF9BD720503059002DF016 /* MJPhotoToolbar.m in Sources */,
+				6930CA1E2051761300BCB9C1 /* NHPopView.m in Sources */,
 				71EF9BEE20503059002DF016 /* DDTextView.m in Sources */,
 				71EF9BF820503059002DF016 /* SexAgeView.m in Sources */,
 				71EF9C0620503059002DF016 /* VIPhotoView.m in Sources */,
@@ -1321,22 +1318,20 @@
 				71EF9BC720503059002DF016 /* Request.m in Sources */,
 				71EF9BD220503059002DF016 /* MJPhoto.m in Sources */,
 				71EF9AF620502F2C002DF016 /* Public.m in Sources */,
-				71EF9AF520502F2C002DF016 /* DDRefreshHader.m in Sources */,
 				71EF9BE720503059002DF016 /* DDPageConfig.m in Sources */,
 				71EF9BF020503059002DF016 /* DDWebViewController.m in Sources */,
 				C551EB152051235F00512E3A /* RegisterViewController.m in Sources */,
 				71EF9C0720503059002DF016 /* VIPhotoViewController.m in Sources */,
-				71EF9AF420502F2C002DF016 /* DDRefreshFooter.m in Sources */,
 				C5BAAA46204FD8E900E6AEDB /* AppDelegate.m in Sources */,
 				C551EAF82050CF5D00512E3A /* MainViewController.m in Sources */,
 				71EF9BD020503059002DF016 /* ImageZoomViewController.m in Sources */,
 				71EF9BD920503059002DF016 /* SDBrowserImageView.m in Sources */,
 				C551EAFB2050CF6E00512E3A /* BusCircleViewController.m in Sources */,
 				71EF9BCE20503059002DF016 /* DocumentTypeView.m in Sources */,
-				71EF9BEC20503059002DF016 /* DDPopup.m in Sources */,
 				71EF9BC920503059002DF016 /* AdView.m in Sources */,
 				71EF9BCD20503059002DF016 /* Document.m in Sources */,
 				71EF9BD120503059002DF016 /* MBProgressHUD+Add.m in Sources */,
+				6930CA1B205174B800BCB9C1 /* JZRefresh.m in Sources */,
 				71EF9BCF20503059002DF016 /* EditDocumentViewController.m in Sources */,
 				71EF9BE520503059002DF016 /* IconTitleValueCell.m in Sources */,
 				71EF9C21205032FE002DF016 /* UINavigationBar+Awesome.m in Sources */,
@@ -1505,8 +1500,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBZ55JZT3A;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/芥子帝国/Resource/JZDG.pch";
 				INFOPLIST_FILE = "芥子帝国/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ngari.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1520,8 +1517,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBZ55JZT3A;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/芥子帝国/Resource/JZDG.pch";
 				INFOPLIST_FILE = "芥子帝国/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ngari.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";

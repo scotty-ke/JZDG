@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DDNavigationViewController : UINavigationController
+@interface JZNavigationViewController : UINavigationController
 
 
 @property (nonatomic,assign) BOOL leftPanUse;

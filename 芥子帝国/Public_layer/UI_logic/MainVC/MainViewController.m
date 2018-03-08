@@ -39,7 +39,7 @@
 {
     LoginViewController *loginVC = [[LoginViewController alloc] init];
     
-    DDNavigationViewController *loginNav = [[DDNavigationViewController alloc] initWithRootViewController:loginVC];
+    JZNavigationViewController *loginNav = [[JZNavigationViewController alloc] initWithRootViewController:loginVC];
     
     [self presentViewController:loginNav animated:YES completion:nil];
 }

@@ -37,7 +37,7 @@
      首页
      */
     _mainVC  = [[MainViewController alloc]init];
-    DDNavigationViewController *mainNVC = [[DDNavigationViewController alloc]initWithRootViewController:_mainVC];
+    JZNavigationViewController *mainNVC = [[JZNavigationViewController alloc]initWithRootViewController:_mainVC];
     _mainVC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"首页"
                                                       image:[[UIImage  imageNamed:@"main"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                               selectedImage:[[UIImage imageNamed:@"main"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
@@ -48,13 +48,13 @@
      消息
      */
     _busCircleVC  = [[BusCircleViewController alloc]init];
-    DDNavigationViewController *busCircleNVC = [[DDNavigationViewController alloc]initWithRootViewController:_busCircleVC];
+    JZNavigationViewController *busCircleNVC = [[JZNavigationViewController alloc]initWithRootViewController:_busCircleVC];
     _busCircleVC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"商业圈"
                                                           image:[[UIImage  imageNamed:@"message"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                                   selectedImage:[[UIImage imageNamed:@"message"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
     
     _personCenterVC  = [[PersonCenterViewController alloc]init];
-    DDNavigationViewController *personCenterNVC = [[DDNavigationViewController alloc]initWithRootViewController:_personCenterVC];
+    JZNavigationViewController *personCenterNVC = [[JZNavigationViewController alloc]initWithRootViewController:_personCenterVC];
     _personCenterVC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"我的"
                                                               image:[[UIImage  imageNamed:@"self"]  imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                                       selectedImage:[[UIImage imageNamed:@"self"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
