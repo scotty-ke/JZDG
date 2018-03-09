@@ -10,6 +10,7 @@
 		2BB3C124E21308A9F9295B60 /* libPods-芥子帝国.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C01859FCF65D1326C957074 /* libPods-芥子帝国.a */; };
 		6930CA1B205174B800BCB9C1 /* JZRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6930CA1A205174B800BCB9C1 /* JZRefresh.m */; };
 		6930CA1E2051761300BCB9C1 /* JZPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6930CA1C2051761200BCB9C1 /* JZPopView.m */; };
+		696B778320520E7C006D3F63 /* JZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 696B778220520E7B006D3F63 /* JZTextField.m */; };
 		71EF9AF620502F2C002DF016 /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AF020502F2C002DF016 /* Public.m */; };
 		71EF9AF720502F2C002DF016 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AF320502F2C002DF016 /* UIViewExt.m */; };
 		71EF9BC220503059002DF016 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9AFB20503058002DF016 /* BaseModel.m */; };
@@ -54,7 +55,6 @@
 		71EF9BE920503059002DF016 /* DDPageHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71EF9B5520503059002DF016 /* DDPageHeaderCell.xib */; };
 		71EF9BEA20503059002DF016 /* DDPageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B5720503059002DF016 /* DDPageHeaderView.m */; };
 		71EF9BEB20503059002DF016 /* DDPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B5920503059002DF016 /* DDPageViewController.m */; };
-		71EF9BED20503059002DF016 /* DDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B5F20503059002DF016 /* DDTextField.m */; };
 		71EF9BEE20503059002DF016 /* DDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B6120503059002DF016 /* DDTextView.m */; };
 		71EF9BEF20503059002DF016 /* GCPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B6320503059002DF016 /* GCPlaceholderTextView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		71EF9BF020503059002DF016 /* DDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF9B6620503059002DF016 /* DDWebViewController.m */; };
@@ -129,6 +129,8 @@
 		6930CA1A205174B800BCB9C1 /* JZRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZRefresh.m; sourceTree = "<group>"; };
 		6930CA1C2051761200BCB9C1 /* JZPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZPopView.m; sourceTree = "<group>"; };
 		6930CA1D2051761200BCB9C1 /* JZPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZPopView.h; sourceTree = "<group>"; };
+		696B778120520E7B006D3F63 /* JZTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTextField.h; sourceTree = "<group>"; };
+		696B778220520E7B006D3F63 /* JZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZTextField.m; sourceTree = "<group>"; };
 		71EF9AE520502D3B002DF016 /* JZDG.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDG.pch; sourceTree = "<group>"; };
 		71EF9AEF20502F2C002DF016 /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
 		71EF9AF020502F2C002DF016 /* Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Public.m; sourceTree = "<group>"; };
@@ -214,8 +216,6 @@
 		71EF9B5720503059002DF016 /* DDPageHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPageHeaderView.m; sourceTree = "<group>"; };
 		71EF9B5820503059002DF016 /* DDPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPageViewController.h; sourceTree = "<group>"; };
 		71EF9B5920503059002DF016 /* DDPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPageViewController.m; sourceTree = "<group>"; };
-		71EF9B5E20503059002DF016 /* DDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTextField.h; sourceTree = "<group>"; };
-		71EF9B5F20503059002DF016 /* DDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTextField.m; sourceTree = "<group>"; };
 		71EF9B6020503059002DF016 /* DDTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTextView.h; sourceTree = "<group>"; };
 		71EF9B6120503059002DF016 /* DDTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTextView.m; sourceTree = "<group>"; };
 		71EF9B6220503059002DF016 /* GCPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCPlaceholderTextView.h; sourceTree = "<group>"; };
@@ -304,10 +304,10 @@
 		C5BAAA52204FD8E900E6AEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5BAAA53204FD8E900E6AEDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5BAAA59204FD8E900E6AEDB /* 芥子帝国Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "芥子帝国Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5BAAA5D204FD8E900E6AEDB /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____Tests.m; sourceTree = "<group>"; };
+		C5BAAA5D204FD8E900E6AEDB /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		C5BAAA5F204FD8E900E6AEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5BAAA64204FD8E900E6AEDB /* 芥子帝国UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "芥子帝国UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5BAAA68204FD8E900E6AEDB /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____UITests.m; sourceTree = "<group>"; };
+		C5BAAA68204FD8E900E6AEDB /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		C5BAAA6A204FD8E900E6AEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5BAAA8B204FEB3600E6AEDB /* UIPageDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPageDefines.h; sourceTree = "<group>"; };
 		C5BAAA8C204FEB3700E6AEDB /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
@@ -643,8 +643,8 @@
 		71EF9B5D20503059002DF016 /* DDTextField */ = {
 			isa = PBXGroup;
 			children = (
-				71EF9B5E20503059002DF016 /* DDTextField.h */,
-				71EF9B5F20503059002DF016 /* DDTextField.m */,
+				696B778120520E7B006D3F63 /* JZTextField.h */,
+				696B778220520E7B006D3F63 /* JZTextField.m */,
 				71EF9B6020503059002DF016 /* DDTextView.h */,
 				71EF9B6120503059002DF016 /* DDTextView.m */,
 				71EF9B6220503059002DF016 /* GCPlaceholderTextView.h */,
@@ -1258,6 +1258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696B778320520E7C006D3F63 /* JZTextField.m in Sources */,
 				71EF9C0A20503059002DF016 /* ZJD_StarEvaluateView.m in Sources */,
 				71EF9C0320503059002DF016 /* LabelTextFieldCell.m in Sources */,
 				71EF9BD820503059002DF016 /* MJPhotoView.m in Sources */,
@@ -1293,7 +1294,6 @@
 				71EF9BCC20503059002DF016 /* CheckDocumentViewController.m in Sources */,
 				71EF9BEF20503059002DF016 /* GCPlaceholderTextView.m in Sources */,
 				71EF9BDE20503059002DF016 /* AQPhotoPickerView.m in Sources */,
-				71EF9BED20503059002DF016 /* DDTextField.m in Sources */,
 				C551EB032050D15000512E3A /* AppDelegate+function.m in Sources */,
 				71EF9C1020503059002DF016 /* UITextField+ExtentRange.m in Sources */,
 				71EF9BC420503059002DF016 /* UIViewController+pop.m in Sources */,

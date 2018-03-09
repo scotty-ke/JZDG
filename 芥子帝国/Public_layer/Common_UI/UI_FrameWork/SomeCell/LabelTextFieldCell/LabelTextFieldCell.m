@@ -40,7 +40,7 @@
     }];
     
     //
-    self.textField = [[DDTextField alloc]init];
+    self.textField = [[JZTextField alloc]init];
     self.textField.maxNum = 15;
     self.textField.delegate = self;
     self.textField.font = TEXT_FONT_15;

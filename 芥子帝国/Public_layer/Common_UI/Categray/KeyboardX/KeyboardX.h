@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DDTextField.h"
+#import "JZTextField.h"
 
 
 @interface KeyboardX : UIView
 
-+ (instancetype)keyboardXAddIn:(DDTextField  *)textField;
++ (instancetype)keyboardXAddIn:(JZTextField  *)textField;
 
 @end

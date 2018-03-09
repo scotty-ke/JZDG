@@ -16,7 +16,7 @@
 
 @interface KeyboardX()
 {
-    DDTextField *_textField;
+    JZTextField *_textField;
     NSArray *_keyArr;
     NSTimer *_timer;
     CGPoint _start;
@@ -27,7 +27,7 @@
 @implementation KeyboardX
 
 
-- (instancetype)initWithFrame:(CGRect)frame AndTextField:(DDTextField *)textField{
+- (instancetype)initWithFrame:(CGRect)frame AndTextField:(JZTextField *)textField{
     if (self = [super initWithFrame:frame]) {
         self.backgroundColor = [UIColor whiteColor];
         _textField = textField;
@@ -42,7 +42,7 @@
     return self;
 }
 
-+ (instancetype)keyboardXAddIn:(DDTextField  *)textField{
++ (instancetype)keyboardXAddIn:(JZTextField  *)textField{
     return [[self alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, KeyboardX_H)AndTextField:textField];
 }
 

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FormDetailsCell.h"
-#import "DDTextField.h"
+#import "JZTextField.h"
 
 @protocol LabelTextFieldCellDelegate <NSObject>
 // 具体方法
@@ -22,7 +22,7 @@
 
 @property (nonatomic,strong)UILabel *title;//上面的文字
 
-@property (nonatomic,strong) DDTextField *textField;//下面的文本输入框
+@property (nonatomic,strong) JZTextField *textField;//下面的文本输入框
 
 @property (nonatomic,weak) id<LabelTextFieldCellDelegate> delegate;
 
